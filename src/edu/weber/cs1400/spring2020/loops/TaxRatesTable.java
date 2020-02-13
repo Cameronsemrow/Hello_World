@@ -49,7 +49,7 @@ public class TaxRatesTable {
         for (i = 10000; i <= 110000; i = i + 20000) {
             tableTaxToPay = tableTaxRate * i;
             System.out.println("Salary: " + i + "\tTax Rate: " + tableTaxRate + "\tTax to pay: " + tableTaxToPay);
-            tableTaxRate = tableTaxRate + .1;
+            tableTaxRate = tableTaxRate + .1; //hi
         }
     }
 }
