@@ -36,6 +36,7 @@ public class InternetDomainNames {
                     }
                     ++i;
                 }
+                i = 0;
                 while (i < 3){
                     if (input.endsWith(restrictedTopLevelDomain[i])) {
                         System.out.println("This is a domain name that consists of a second-level domain followed by a restricted top-level domain.");
